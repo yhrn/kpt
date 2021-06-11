@@ -24,3 +24,5 @@ require (
 	sigs.k8s.io/kustomize/cmd/config v0.9.10
 	sigs.k8s.io/kustomize/kyaml v0.10.17
 )
+
+replace sigs.k8s.io/kustomize/kyaml => github.com/yhrn/kustomize/kyaml v0.10.17-patch3
